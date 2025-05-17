@@ -1,6 +1,7 @@
-import React from "react";
 import GitHub from "./SVG/GitHub";
 import Figma from "./SVG/Figma";
+import Button from "./Button";
+import HeroImg from "./../assets/hero.png";
 
 const Hero = () => {
   return (
@@ -22,12 +23,16 @@ const Hero = () => {
             <a />.
           </p>
           <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-            <GitHub />
-            <Figma />
+            <Button btnText={"View on GitHub"}>
+              <GitHub />
+            </Button>
+            <Button btnText={"View on Figma"}>
+              <Figma />
+            </Button>
           </div>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img src="./assets/hero.png" alt="hero image" />
+          <img src={HeroImg} />
         </div>
       </div>
     </section>

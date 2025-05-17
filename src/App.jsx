@@ -1,3 +1,4 @@
+import CompanysLogo from "./Components/CompanysLogo";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <Header />
       <Hero />
+      <CompanysLogo />
     </div>
   );
 };
