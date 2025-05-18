@@ -1,6 +1,8 @@
 import CompanysLogo from "./Components/CompanysLogo";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
+import ServiceSection from "./Components/ServiceSection";
+import TrustedSection from "./Components/TrustedSection";
 
 const App = () => {
   return (
@@ -8,6 +10,8 @@ const App = () => {
       <Header />
       <Hero />
       <CompanysLogo />
+      <ServiceSection />
+      <TrustedSection />
     </div>
   );
 };
