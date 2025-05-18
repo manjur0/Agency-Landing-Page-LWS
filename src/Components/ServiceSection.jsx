@@ -1,4 +1,4 @@
-import React from "react";
+
 import feature1 from "./../assets/features/feature-1.png";
 import feature2 from "./../assets/features/feature-2.png";
 import ServiceItem from "./ServiceItem";
