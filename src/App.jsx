@@ -1,4 +1,5 @@
 import CompanysLogo from "./Components/CompanysLogo";
+import FAQSection from "./Components/FAQSection";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import PricingSection from "./Components/PricingSection";
@@ -16,6 +17,7 @@ const App = () => {
       <TrustedSection />
       <TestimonialSection />
       <PricingSection />
+      <FAQSection />
     </div>
   );
 };
